@@ -1,0 +1,33 @@
+:root {
+  font-family: 'Courier New', Courier, monospace, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(9, 0, 0, 0.87);
+  background-color: #fcfafa;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #000204;
+    background-color: #ffffff;
+  }
+  
+}
